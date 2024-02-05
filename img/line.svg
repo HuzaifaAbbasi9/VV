@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="374.404" height="4" viewBox="0 0 374.404 4">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="12.327" gradientTransform="translate(0.486) scale(0.029 1)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#34bf3f"/>
+      <stop offset="1" stop-color="#007a22"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_77" data-name="Group 77" transform="translate(-453.027 -2976)">
+    <path id="Path_18" data-name="Path 18" d="M473.51,2976.108H592.44l-19.736,3.727H453.027Z" fill="#d3ac09"/>
+    <path id="Path_19" data-name="Path 19" d="M593.025,2976h118.93l-19.736,4H572.543Z" fill="url(#radial-gradient)"/>
+    <path id="Path_20" data-name="Path 20" d="M708.5,2976.108h118.93l-19.734,3.727H688.019Z" fill="#dd640a"/>
+  </g>
+</svg>

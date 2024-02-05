@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Vyne | Station Pharmacy</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <script src=" assets/js/jquery.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="assets/css/Fonts/style.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    
+
+    <!-- Calendly css -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    
+    <!-- Hotjar Tracking Code for https://www.thevynepharmacy.com -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:3307648,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VC64PR1MD5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-VC64PR1MD5');
+    </script>
+
+    <style>
+        .owl-prev {
+            font-size: 40px !important;
+            color: white !important;
+            background: unset !important;
+        }
+
+        .owl-next {
+            font-size: 40px !important;
+            color: white !important;
+            background: unset !important;
+        }
+
+        .owl-nav {
+            margin-top: 50px !important;
+        }
+
+        .selectBox {
+            box-shadow: 0.25rem 0.25rem 0 0 #502e1d;
+        }
+
+        .header_booking_form {
+            background: url(images/services.png);
+            width: 100%;
+            height: auto;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.svg" alt="Logo" />
+            </a>
+            <div class="selectBox header_booking_form_btn ml-auto show_on_lg">
+                <div class="selectBox__value">
+                    <span class="selectBox__valueInner">Book</span>
+                    <img src="images/select-dropDown_arrow.svg" alt="" />
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="37" height="28" viewBox="0 0 37 28">
+                    <g id="Group_263" data-name="Group 263" transform="translate(-342 -35)">
+                        <path id="Rectangle_68" data-name="Rectangle 68"
+                            d="M6,0H34a3,3,0,0,1,3,3V3a3,3,0,0,1-3,3H0A0,0,0,0,1,0,6V6A6,6,0,0,1,6,0Z"
+                            transform="translate(342 46)" fill="#fff" />
+                        <path id="Rectangle_69" data-name="Rectangle 69"
+                            d="M3,0H25a3,3,0,0,1,3,3V3a3,3,0,0,1-3,3H0A0,0,0,0,1,0,6V3A3,3,0,0,1,3,0Z"
+                            transform="translate(351 57)" fill="#f5c600" />
+                        <path id="Rectangle_70" data-name="Rectangle 70"
+                            d="M3,0H18a3,3,0,0,1,3,3V3a3,3,0,0,1-3,3H0A0,0,0,0,1,0,6V3A3,3,0,0,1,3,0Z"
+                            transform="translate(348 35)" fill="#1f4" />
+                    </g>
+                </svg>
+                <img src="images/close_menu_btn_mobile.svg" alt="logo" />
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav align-items-lg-center ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html"><span>HOME</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><span>ABOUT</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: var(--yellowShade);">
+                            SERVICES
+                        </a>
+                        <div class="dropdown-menu bg-transparent border-0" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item bg-transparent text-white px-0" href="services.html">ALL
+                                SERVICES</a>
+                            <div class="dropdown-divider d-lg-block d-none"></div>
+                            <a class="dropdown-item bg-transparent text-white px-0" href="therapy.html">THERAPY</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><span>CONTACT</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span>LEARN SOMETHING</span></a>
+                    </li>
+                    <div class="selectBox header_booking_form_btn hide_on_lg">
+                        <div class="selectBox__value">
+                            <span class="selectBox__valueInner">Book</span>
+                            <img src="images/select-dropDown_arrow.svg" alt="" />
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="position-relative">
+            <section class="hero_section_service service-pa">
+                <div class="container">
+                    <h5 class="section_therapy_h service-heading text-lg-right text-center">Services</h5>
+                    <div class="service-wrapper show_on_md">
+                        <div class="item gold-bg" id="sm_supervised" style="display: block;">
+                            <img src="images/supervised_cons.png" class="img-fluid slide-img" alt="">
+                            <h5 class="slide-text">SUPERVISED CONSUMPTION</h5>
+                        </div>
+                        <div class="dflex md-5 align-items-center small-screen" id="sm_supervised2" style="display: none;" >
+                            <p>
+                                Supervised consumption is an NHS service which is used in certain conditions to ensure 
+                                that patients take their medication at regular intervals such as in substance dependence. 
+                                The prescriber writes the supervised consumption instructions on the prescription. The service 
+                                is funded by the NHS, it’s free for the patient.
+                            </p>
+                            <p>
+                                This service will require the pharmacist to supervise the consumption of prescribed medicines 
+                                at the point of dispensing in the pharmacy, ensuring that the dose has been administered to the 
+                                patient. We offer a user-friendly, non-judgmental, client-centred and confidential service. We 
+                                provide support and advice to the patient, including referral to primary care or specialist centers 
+                                where appropriate. The service is carried out in a private consultation room.
+                            </p>
+                            <p>
+                                In the majority cases, the prescriber will discuss the options with the patient and refer them to 
+                                the pharmacy of their choice for this service. Before reviewing the patient, the prescriber will 
+                                check with the pharmacy the adherence of the patient to the treatment. If you would like us to provide 
+                                this service for you, please speak to a member of staff or your prescriber.
+                            </p>
+                            <div class="d-flex justify-content-end mt-5" id="close_box">
+                                
+                                    <img src="img/buttons/closebox.svg" alt="close_box">
+                                
+                            </div>
+                        </div>
+                        <div class="item greens-bg" id="sm_comm" >
+                            <img src="images/community_dosage.png" class="img-fluid slide-img" alt="">
+                            <h5 class="slide-text">Community Dosage Systems </h5>
+                        </div>
+                        <div class="dflex md-5 align-items-center small-screen" id="sm_comm2" style="display: none;">
+                            <p>
+                                The community dosage system is a service for those patients who take a large number of medications or who can’t 
+                                remember to take their medications on time due to their conditions or circumstance. The pharmacy will put your 
+                                medication in a weekly pack which is easy to follow, allowing better compliance and safe administration of medicines.
+                                This service is being used by many of the elderly population to help manage complex medicine regimes. 
+                            </p>
+                            <p>   
+                                This is an important tool that enhances medicine adherence and helps patients manage their medicine effectively. As a Pharmacy team, we understand how important it is to take medicine on time and not miss any doses which is why we can help organise weekly pill trays for those who require them and deliver them to the patients on a weekly basis. This will help prevent medicine wastage and overdosage in some patients.
+
+                                The pharmacy will assess your eligibility for this service with you or your carer and the prescriber in some cases. Please speak to a member of staff about if you are interested in this service.
+                            </p>   
+                            <div class="d-flex justify-content-end mt-5" id="close_box2">
+                                <img src="img/buttons/closebox.svg" alt="close_box2" > 
+                            </div>
+                        </div>
+                        <div class="item gold-bg" id="sm_newmed">
+                            <img src="images/new_medicine.svg" class="img-fluid slide-img" alt=""  >
+                            <h5 class="slide-text"> New Medicine Service (N.M.S) </h5>
+                        </div>
+                        <div class="dflex md-5 align-items-center small-screen" id="sm_newmed2" style="display: none;">
+                            <p>
+                                The New Medicine Service (NMS) is a free NHS service that provides support for people with long-term
+                                 conditions newly prescribed a medicine to help improve medicines adherence; it is initially focused 
+                                 on particular patient groups and conditions.
+
+                                The aim of this service is to improve patient adherence to treatment and subsequently reduce medicine
+                                wastage. Also, to reduce hospital admissions from adverse drug reaction by identifying them in the early
+                                stages of the treatment. During your consultations with the pharmacist, you will also be advised on lifestyle 
+                                intervention that will help with management of your conditions.
+                            </p>
+
+                            <p>
+                                During your follow-up consultation, the pharmacists will ask you about how you got on with your medication, 
+                                explore any issues you might have encountered and provided relevant advice and support. The pharmacist will arrange
+                                a final meeting in 1-2 weeks time to ensure that you have a good understanding of your new treatment and that you aren’t having any adverse effects. Next time when you start a new medicine, speak to a member of our team to check if you are eligible for this service.
+                            </p>      
+                            <div class="d-flex justify-content-end mt-5" id="close_box3">
+                                <img src="img/buttons/closebox.svg" alt="close_box3" > 
+                            </div>
+                        </div>
+                        <div class="item greens-bg" id="sm_free">
+                            <img src="images/blood_pressure.svg" class="img-fluid slide-img" alt="">
+                            <h5 class="slide-text"> Free BLOOD PRESSURE CHECKS+NHS CHECKS </h5>
+                        </div>
+                        <div class="dflex md-5 align-items-center small-screen" id="sm_free2" style="display: none;">
+                            <p>
+                                High blood pressure, also called hypertension, is a condition which can be controlled to reduce your risk of a heart attack, 
+                                stroke or other cardiovascular disease.
+                                In the UK there are about five million adults (one in every nine) who have high blood pressure without even knowing it, since
+                                 high blood pressure itself rarely causes symptoms.
+                            </p>
+                            <p>
+                                The British Heart Foundation estimates that high blood pressure causes over 50% of heart attacks and strokes        
+                                We offer free blood pressure checks to people with no appointment necessary. This involves around 10-15 minutes 
+                                in the pharmacy consultation room with a trained member of the pharmacy team. Depending on your blood pressure reading
+                                you may be referred to your GP. 
+                                The pharmacy team will guide you through any necessary steps depending on your blood pressure result.
+
+                            </p>
+                            <div class="d-flex justify-content-end mt-5" id="close_box4">
+                                <img src="img/buttons/closebox.svg" alt="close_box4" > 
+                            </div>
+                        </div>
+                        <div class="item gold-bg" id="sm_covid">
+                            <img src="images/covid_flu.svg" class="img-fluid slide-img" alt="">
+                            <h5 class="slide-text"> COVID & FLU<br> Jabs </h5>
+                        </div>
+                        <div class="dflex md-5 align-items-center small-screen" id="sm_covid2" style="display: none;">
+                            <p><b style="text-transform: uppercase;"> COVID JABS: PCR General, Rapid antigen test, Antibody test…</b></p>
+                            <p> 
+                                Are you fit to fly? Planning a holiday but worried about your COVID-19 status? Many airlines and 
+                                countries are now asking travellers for a Fit to Fly certificate to prove that they have had a negative 
+                                COVID-19 PCR (antigen) test result in the 72 hours before arrival. 
+                            </p>   
+                            <p>
+                                Test for COVID-19 from the safety of 
+                                your own home Buy our COVID-19 PCR home test kit (confirming whether you currently have coronavirus) to 
+                                carry out from the safety of your own home.
+                                
+                                Just turn up at our store or call us on 01359242868.  The fit to fly Covid test and certificate service 
+                                only cost £35 and collect it on the same day as the result  takes 24 hours.
+                            </p>
+                                
+                             <p><b style="text-transform: uppercase;">FLU JABS</b></p>  
+                             
+                             <p>
+                                
+                                For your free NHS jab, visit our pharmacy for more details. If you’re not eligible, we offer a private 
+                                Winter Flu Jab Service with a small charge..
+                                
+                            </p>
+                              
+                            <div class="d-flex justify-content-end mt-5" id="close_box5">
+                                <img src="img/buttons/closebox.svg" alt="close_box5" > 
+                            </div>
+                        </div>
+                        <div class="item greens-bg" id="sm_emergency">
+                            <img src="images/emergency_hormonal.svg" class="img-fluid slide-img" alt="">
+                            <h5 class="slide-text"> EMERGENCY HORMONAL CONTRACEPTIVES </h5>
+                        </div>
+                        <div class="dflex md-5 align-items-center small-screen" id="sm_emergency2" style="display: none;">
+                            <p>
+                                The morning after pill as commonly referred is an emergency hormonal contraceptive pill which can be taken 
+                                to follow unprotected sex to avoid pregnancy. It is recommended to take the pill as soon as possible after the sexual intercourse. If you require the pill, one of our pharmacists will carry out a short assessment by asking you to fill in a short questionnaire to establish if the treatment is suitable for you.
+
+                                There are two drugs available in the UK without a prescription that are used as an Emergency Hormonal 
+                                Contraceptives (EHC). Levonelle one-step and EllaOne. Levonelle One-step can be used for no longer than 72 hours of unprotected sex in order to prevent pregnancy. EllaOne is to be taken no longer than 120 hours after unprotected sex.
+                            </p>
+                            <p>
+                                The pharmacist will advise you as to which contraceptive pill is suitable for you during a consultation. The morning after pill is not to be used regularly as it’s only for occasional use when another form of contraceptives was not used or failed. If you require the morning after pill, please speak to a member of staff who will get you to fill in a short questionnaire. The pharmacist will go through the questionnaire with you and if it suitable, they will supply the pill or they will refer you to another service if the tablet is not suitable for you..
+                            </p> 
+                            <div class="d-flex justify-content-end mt-5" id="close_box6">
+                                <img src="img/buttons/closebox.svg" alt="close_box6" > 
+                            </div>
+                        </div>
+                        <div class="item gold-bg" id="sm_disposal">
+                            <a href="#"><img src="images/disposal_of.svg" class="img-fluid slide-img" alt=""></a>
+                            <h5 class="slide-text"> Disposal of 
+                                Unwanted Medicines </h5>
+                        </div>
+                        <div class="dflex md-5 align-items-center small-screen" id="sm_disposal2" style="display: none;">
+                            <p>
+                                If you have unused/expired prescription medicines or medicines that you bought over the counter, just bring them to the pharmacy for a safe disposal. This is a free service available to the public. It is not safe to put unwanted/expired medicine in domestic bins.
+                                Any medicine you return to the pharmacy cannot be used by the pharmacy again. 
+                                                          
+                                It’s therefore very important that you don’t stockpile medication at home and only request medication 
+                                that you need. Stockpiling is also dangerous as there is a possibility of mixing your new medicines with 
+                                your old ones and it is also a safety risk to children and others who might take them. Every year over £300 million
+                                of NHS money is wasted by unused prescription medicines.
+                            </p>
+                                
+                            <p>
+                                Each year, large quantities of unused and expired medications are dumped into bins or flushed down toilets and sinks. The effects on the environment and human health are unclear but the evidence is pointing to the presence of chemicals from prescriptions and over-the-counter medications in the soil, drinking water and the surrounding environment. It is very important that you return unwanted medicines to a local pharmacy for safe disposal. Speak to a member of staff if you have any questions about the disposal of unwanted medicines.
+                            </p>
+                            <div class="d-flex justify-content-end mt-5" id="close_box7">
+                                <img src="img/buttons/closebox.svg" alt="close_box7" > 
+                            </div>
+                        </div>
+                        <div class="item greens-bg" id="sm_smoking">
+                            <img src="images/smoking.svg" class="img-fluid slide-img" alt="">
+                            <h5 class="slide-text"> Smoking<br> Cessation </h5>
+                        </div>
+                        <div class="dflex md-5 align-items-center small-screen" id="sm_smoking2" style="display: none;">
+                            <p>
+                                If you have decided to quit smoking and looking for someone to help you on this journey then you have come to the right place. Research has shown that you are more likely to be successful at quitting smoking with counseling and Nicotine Replacement Therapies (NRTs) then try to quit without.
+
+                                The benefits of quitting smoking are huge and it's never too late to quit. It is a process which starts with you wanting to quit. There is a wide range of NRT products available to help you with quitting smoking. You can use a combination of products to help you overcome the nicotine cravings.                               
+                            </p>
+                            
+                            <p>One of our team will help create a plan for you and have regular reviews with you to monitor your progress and to provide information and encouragement during this journey. We are passionate about helping our customers with quitting smoking as it has huge health benefits for the customer.
+                                
+                                We stock some of the leading brands of NRT products such as Nicorette, Nicotinell, and Niquitin. The products are available in a range of different forms such as patches, chewing gum, lozenges, inhalators, nasal sprays, and microtabs. Come into our pharmacy or contact us for more details.
+                            </p>
+                            <div class="d-flex justify-content-end mt-5" id="close_box8">
+                                <img src="img/buttons/closebox.svg" alt="close_box8" > 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel owl-theme hide_on_md mt-5" id="hide_all_sm" style="display: block;">
+                    <div class="item gold-bg" id="hide_supervised">
+                        <img src="images/supervised_cons.png" class="img-fluid slide-img" alt="supervised_pic" >
+                        <h5 class="slide-text">SUPERVISED CONSUMPTION</h5>
+                    </div>
+                    <div class="item greens-bg" id="hide_comm"  style="display: block;">
+                        <img src="images/community_dosage.png" class="img-fluid slide-img" alt="">
+                        <h5 class="slide-text">Community Dosage Systems </h5>
+                    </div>
+                    <div class="item gold-bg" id="hide_new" style="display: block;">
+                        <img src="images/new_medicine.svg" class="img-fluid slide-img" alt="">
+                        <h5 class="slide-text"> New Medicine Service (N.M.S) </h5>
+                    </div>
+                    <div class="item greens-bg" id="hide_free" style="display:block;">
+                        <img src="images/blood_pressure.svg" class="img-fluid slide-img" alt="">
+                        <h5 class="slide-text"> Free BLOOD PRESSURE CHECKS+NHS CHECKS </h5>
+                    </div>
+                    <div class="item gold-bg" id="hide_covid" style="display:block;">
+                        <img src="images/covid_flu.svg" class="img-fluid slide-img" alt="">
+                        <h5 class="slide-text"> COVID & FLU<br> Jabs </h5>
+                    </div>
+                    <div class="item greens-bg" id="hide_emergency" style="display:block;">
+                        <img src="images/emergency_hormonal.svg" class="img-fluid slide-img" alt="">
+                        <h5 class="slide-text"> EMERGENCY HORMONAL CONTRACEPTIVES </h5>
+                    </div>
+                    <div class="item gold-bg" id="hide_disposal" style="display:block;">
+                        <img src="images/disposal_of.svg" class="img-fluid slide-img" alt="">
+                        <h5 class="slide-text"> Disposal of 
+                            Unwanted Medicines </h5>
+                    </div>
+                    <div class="item greens-bg" id="hide_smoking" style="display: block;">
+                        <img src="images/smoking.svg" class="img-fluid slide-img" alt="">
+                        <h5 class="slide-text"> Smoking<br> Cessation </h5>
+                    </div>
+                </div>
+
+                <div class="container" id="mobile_div" style="display:none; margin: top -20px;">
+
+                    <div class="d-sm-flex align-items-center justify-content-between mt-2 style-out" >
+                        <div class="col-md-4"  id="smoking_div" style ="display:none;">
+                            <div class="item greens-bg" >
+                                <img src="images/smoking.svg" class="img-fluid slide-img" alt="smoke-pic">
+                                <h5 class="slide-text"> Smoking<br> Cessation </h5>
+                            </div>
+                        </div>
+                        <div class="col-md-8" id="smoking_div2" style = "display: none;">
+                            <p>If you have decided to quit smoking and looking for someone to help you on this journey then you have come to the right place. Research has shown that you are more likely to be successful at quitting smoking with counseling and Nicotine Replacement Therapies (NRTs) then try to quit without.
+
+                                The benefits of quitting smoking are huge and it's never too late to quit. It is a process which starts with you wanting to quit. There is a wide range of NRT products available to help you with quitting smoking. You can use a combination of products to help you overcome the nicotine cravings.                               
+                            </p>
+                            
+                            <p>One of our team will help create a plan for you and have regular reviews with you to monitor your progress and to provide information and encouragement during this journey. We are passionate about helping our customers with quitting smoking as it has huge health benefits for the customer.
+                                
+                                We stock some of the leading brands of NRT products such as Nicorette, Nicotinell, and Niquitin. The products are available in a range of different forms such as patches, chewing gum, lozenges, inhalators, nasal sprays, and microtabs. Come into our pharmacy or contact us for more details.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-sm-flex align-items-center justify-content-between mt-2 style-out">
+                        <div class="col-md-4" id="disposal_div" style="display: none;">
+                            <div class="item gold-bg">
+                                <img src="images/disposal_of.svg" class="img-fluid slide-img" alt="smoke-pic">
+                                <h5 class="slide-text"> Disposal of Unwanted<br> Medicines </h5>
+                            </div>
+                        </div>
+                        <div class="col-md-8" id="disposal_div2" style = "display: none;">
+                            <p>
+                                If you have unused/expired prescription medicines or medicines that you bought over the counter, just bring them to the pharmacy for a safe disposal. This is a free service available to the public. It is not safe to put unwanted/expired medicine in domestic bins.
+                                Any medicine you return to the pharmacy cannot be used by the pharmacy again. 
+                                                          
+                                It’s therefore very important that you don’t stockpile medication at home and only request medication 
+                                that you need. Stockpiling is also dangerous as there is a possibility of mixing your new medicines with 
+                                your old ones and it is also a safety risk to children and others who might take them. Every year over £300 million
+                                of NHS money is wasted by unused prescription medicines.
+                            </p>
+                                
+                            <p>
+                                Each year, large quantities of unused and expired medications are dumped into bins or flushed down toilets and sinks. The effects on the environment and human health are unclear but the evidence is pointing to the presence of chemicals from prescriptions and over-the-counter medications in the soil, drinking water and the surrounding environment. It is very important that you return unwanted medicines to a local pharmacy for safe disposal. Speak to a member of staff if you have any questions about the disposal of unwanted medicines.
+                            </p>
+                            
+                            
+                        </div>
+                    </div>
+
+                    <div class="d-sm-flex align-items-center justify-content-between mt-2 style-out"  >
+                        <div class="col-md-4" id="div_newmed" style = "display: none;">
+                            <div class="item gold-bg">
+                                <img src="images/new_medicine.svg" class="img-fluid slide-img" alt="smoke-pic">
+                                <h5 class="slide-text"> New Medicine<br> Service </h5>
+                            </div>
+                        </div>
+                        <div class="col-md-8" id="div_newmed2" style = "display: none;">
+                            <p>
+                                The New Medicine Service (NMS) is a free NHS service that provides support for people with long-term conditions newly prescribed a medicine to help improve medicines adherence; it is initially focused on particular patient groups and conditions.
+
+                                The aim of this service is to improve patient adherence to treatment and subsequently reduce medicine wastage. Also, to reduce hospital admissions from adverse drug reaction by identifying them in the early stages of the treatment. During your consultations with the pharmacist, you will also be advised on lifestyle intervention that will help with management of your conditions.
+                            </p>
+
+                            <p>
+                                During your follow-up consultation, the pharmacists will ask you about how you got on with your medication, explore any issues you might have encountered and provided relevant advice and support. The pharmacist will arrange a final meeting in 1-2 weeks time to ensure that you have a good understanding of your new treatment and that you aren’t having any adverse effects. Next time when you start a new medicine, speak to a member of our team to check if you are eligible for this service.
+                            </p>                           
+                        </div>
+                    </div>
+
+                    <div class="d-sm-flex align-items-center justify-content-between mt-2 style-out">
+                        <div class="col-md-4" id="div_comm_dos" style = "display: none;">
+                            <div class="item greens-bg">
+                                <img src="images/community_dosage.png" class="img-fluid slide-img" alt="smoke-pic">
+                                <h5 class="slide-text"> Community Dosage<br> Systems </h5>
+                            </div>
+                        </div>
+                        <div class="col-md-8" id="div_comm_dos2" style = "display: none;">
+                            <p>
+                                The community dosage system is a service for those patients who take a large number of medications or who can’t remember to take their medications on time due to their conditions or circumstance. The pharmacy will put your medication in a weekly pack which is easy to follow, allowing better compliance and safe administration of medicines.
+
+                                This service is being used by many of the elderly population to help manage complex medicine regimes. </p>
+                            <p>   
+                                This is an important tool that enhances medicine adherence and helps patients manage their medicine effectively. As a Pharmacy team, we understand how important it is to take medicine on time and not miss any doses which is why we can help organise weekly pill trays for those who require them and deliver them to the patients on a weekly basis. This will help prevent medicine wastage and overdosage in some patients.
+
+                                The pharmacy will assess your eligibility for this service with you or your carer and the prescriber in some cases. Please speak to a member of staff about if you are interested in this service.
+                            </p>   
+                        </div>
+                    </div>
+
+                    <div class="d-sm-flex align-items-center justify-content-between mt-2 style-out" >
+                        <div class="col-md-4" id="div_supervised"style = "display: none;">
+                            <div class="item gold-bg">
+                                <img src="images/slide-2.svg" class="img-fluid slide-img" alt="supervised">
+                                <h5 class="slide-text"> Supervised<br>Consumption</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-8" id="div_supervised2" style = "display: none;">
+                            <p>
+                                Supervised consumption is an NHS service which is used in certain conditions to ensure that patients take their medication at regular intervals such as in substance dependence. The prescriber writes the supervised consumption instructions on the prescription. The service is funded by the NHS, it’s free for the patient.
+
+                                This service will require the pharmacist to supervise the consumption of prescribed medicines at the point of dispensing in the pharmacy, ensuring that the dose has been administered to the patient. We offer a user-friendly, non-judgmental, client-centred and confidential service. We provide support and advice to the patient, including referral to primary care or specialist centers where appropriate. The service is carried out in a private consultation room.
+                            </p>
+                            <p>
+                                In the majority cases, the prescriber will discuss the options with the patient and refer them to the pharmacy of their choice for this service. Before reviewing the patient, the prescriber will check with the pharmacy the adherence of the patient to the treatment. If you would like us to provide this service for you, please speak to a member of staff or your prescriber.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-sm-flex align-items-center justify-content-between mt-2 style-out" >
+                        <div class="col-md-4">
+                            <div class="item greens-bg" id="div_hormonal" style = "display: none;" >
+                                <img src="images/emergency_hormonal.svg" class="img-fluid slide-img" alt="smoke-pic">
+                                <h5 class="slide-text"> Emergency Hormonal<br> Contraceptives </h5>
+                            </div>
+                        </div>
+                        <div class="col-md-8" id="div_hormonal2" style = "display: none;" >
+                            <p>
+                                The morning after pill as commonly referred is an emergency hormonal contraceptive pill which can be taken to follow unprotected sex to avoid pregnancy. It is recommended to take the pill as soon as possible after the sexual intercourse. If you require the pill, one of our pharmacists will carry out a short assessment by asking you to fill in a short questionnaire to establish if the treatment is suitable for you.
+
+                                There are two drugs available in the UK without a prescription that are used as an Emergency Hormonal Contraceptives (EHC). Levonelle one-step and EllaOne. Levonelle One-step can be used for no longer than 72 hours of unprotected sex in order to prevent pregnancy. EllaOne is to be taken no longer than 120 hours after unprotected sex.
+                            </p>
+                            <p>
+                                The pharmacist will advise you as to which contraceptive pill is suitable for you during a consultation. The morning after pill is not to be used regularly as it’s only for occasional use when another form of contraceptives was not used or failed. If you require the morning after pill, please speak to a member of staff who will get you to fill in a short questionnaire. The pharmacist will go through the questionnaire with you and if it suitable, they will supply the pill or they will refer you to another service if the tablet is not suitable for you..
+                            </p>
+                            
+                           
+                        </div>
+                    </div>
+
+                    <div class="d-sm-flex align-items-center justify-content-between mt-2 style-out">
+                        <div class="col-md-4" id="div_free" style = "display: none;">
+                            <div class="item greens-bg">
+                                <img src="images/blood_pressure.svg" class="img-fluid slide-img" alt="smoke-pic">
+                                <h5 class="slide-text"> Free BLood PRESSURE
+                                    <br>CHECKS+NHS CHECKS </h5>
+                            </div>
+                        </div>
+                        <div class="col-md-8" id="div_free2" style = "display: none;">
+                            <p>
+                                High blood pressure, also called hypertension, is a condition which can be controlled to reduce your risk of a heart attack, stroke or other cardiovascular disease.
+                                In the UK there are about five million adults (one in every nine) who have high blood pressure without even knowing it, since high blood pressure itself rarely causes symptoms.
+                            </p>
+                            <p>
+                                The British Heart Foundation estimates that high blood pressure causes over 50% of heart attacks and strokes        
+                                We offer free blood pressure checks to people with no appointment necessary. This involves around 10-15 minutes in the pharmacy consultation room with a trained member of the pharmacy team. Depending on your blood pressure reading you may be referred to your GP. 
+                                The pharmacy team will guide you through any necessary steps depending on your blood pressure result.
+
+                            </p>
+                            
+                        </div>
+                    </div>
+
+                    <div class="d-sm-flex align-items-center justify-content-between mt-2 style-out">
+                        <div class="col-md-4" id="div_covid" style = "display: none;">
+                            <div class="item gold-bg">
+                                <img src="images/covid_flu.svg" class="img-fluid slide-img" alt="smoke-pic">
+                                <h5 class="slide-text"> Covid & Flu<br> Jabs</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-8" id="div_covid2" style = "display: none;">
+                            <p><b style="text-transform: uppercase;"> COVID JABS: PCR General, Rapid antigen test, Antibody test…</b></p>
+                            <p> 
+                                Are you fit to fly? Planning a holiday but worried about your COVID-19 status? Many airlines and 
+                                countries are now asking travellers for a Fit to Fly certificate to prove that they have had a negative 
+                                COVID-19 PCR (antigen) test result in the 72 hours before arrival. 
+                            </p>   
+                            <p>
+                                Test for COVID-19 from the safety of 
+                                your own home Buy our COVID-19 PCR home test kit (confirming whether you currently have coronavirus) to 
+                                carry out from the safety of your own home.
+                                
+                                Just turn up at our store or call us on 01359242868.  The fit to fly Covid test and certificate service 
+                                only cost £35 and collect it on the same day as the result  takes 24 hours.
+                            </p>
+                                
+                             <p><b style="text-transform: uppercase;">FLU JABS</b></p>  
+                             
+                             <p>
+                                
+                                For your free NHS jab, visit our pharmacy for more details. If you’re not eligible, we offer a private 
+                                Winter Flu Jab Service with a small charge..
+                                
+                            </p>
+                            
+                            
+                        </div>
+
+                        
+                    </div>
+
+
+                    <div class="d-flex justify-content-end serv-back-btn p-4 mt-3">
+                        <a href="#"><img src="images/buttons/back_btn.svg" alt="back-btn-serv" id="serv-btn"></a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- cut -->
+            <div class="header_booking_form main_section">
+                <div class="header_booking_form_inner">
+                    <div class="d-flex align-items-center" id="booking_f" style="display: block;">
+                        <ul>
+                            <li id="book_p">
+                                <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/thevyne_pharmacy/book-prescriptions'});return false;">Prescriptions</a>
+                            </li>
+                            <li id="book_nhs">
+                                <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/thevyne_pharmacy/30min'});return false;">NHS Covid Jabs</a>
+                            </li>
+                            <li id="book_pc">
+                                <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/thevyne_pharmacy/book-private-consultation'});return false;">Private Consultation</a>
+                            </li>
+                            <li id="book_pc" target="_blank">
+                                <a href="https://pharmadoctor.co.uk/patient/locations/east-of-england/ipswich/Station-Pharmacy-IP309HD-2832">Other Bookings</a>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- cut -->
+        </div>
+    </main>
+    <footer class="main_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 hide_on_lg text-center mb-5">
+                    <img src="img/logo.svg" alt="" class="logo_styleout"/>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-12 show_on_lg text-center mb-sm-4 mb-1">
+                            <img src="img/logo.svg" alt="" />
+                        </div>
+                        <div class="col-lg-6 footer_item hide_on_lg">
+                            <h6><img src="images/footer_icon_1.png" alt="" />Opening Times</h6>
+                            <p class="main_para">Monday - Friday (9:00 - 18:00) Saturday (9:00 - 13:00)</p>
+                        </div>
+                        <div class="col-lg-6 footer_item">
+                            <h6><img src="images/footer_icon_2.png" alt="" />Lets Talk</h6>
+                            <a href="tel:01359242868" class="main_para hide_on_lg">01359 242868</a>
+                        </div>
+                        <div class="col-lg-6 footer_item_bottom footer_item">
+                            <h6><img src="images/footer_icon_3.png" alt="" />Address</h6>
+                            <p class="main_para">Unit 1 Cattlepens, Station Road, Elmswell, Bury St Edmunds , Suffolk,
+                                IP30
+                                9HD. UK</p>
+                        </div>
+                        <div class="col-lg-6 footer_item show_on_lg">
+                            <a href="tel:01359242868" class="main_para">01359 242868</a>
+                        </div>
+                        <div class="col-lg-6 footer_item_bottom footer_item">
+                            <h6><img src="images/footer_icon_4.png" alt="" />General Support</h6>
+                            <a href="mailto:info@thevynepharmacy.com" class="main_para">info@thevynepharmacy.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 pl-lg-4 pt-lg-3 footer_follow_wrapper">
+                    <h6>FOLLOW US</h6>
+                    <ul class="footer_follow_icon">
+                        <li>
+                            <a target="_blank" href="https://www.facebook.com/StationPharmacyElmswell">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19.5" height="33" viewBox="0 0 19.5 33">
+                                    <path id="footer-social-icon-1"
+                                        d="M27,3H22.5A7.5,7.5,0,0,0,15,10.5V15H10.5v6H15V33h6V21h4.5L27,15H21V10.5A1.5,1.5,0,0,1,22.5,9H27Z"
+                                        transform="translate(-9 -1.5)" fill="currentColor" stroke="currentColor"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="30.212"
+                                    viewBox="0 0 36 30.212">
+                                    <path id="footer-social-icon-2"
+                                        d="M34.5,4.5a16.35,16.35,0,0,1-4.71,2.3A6.72,6.72,0,0,0,18,11.295v1.5A15.99,15.99,0,0,1,4.5,6s-6,13.5,7.5,19.5a17.46,17.46,0,0,1-10.5,3c13.5,7.5,30,0,30-17.25A6.75,6.75,0,0,0,31.38,10,11.58,11.58,0,0,0,34.5,4.5Z"
+                                        transform="translate(0 -2.868)" fill="currentColor" stroke="currentColor"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://instagram.com/stationpharmacy7?igshid=YmMyMTA2M2Y=">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32.665" height="32.658"
+                                    viewBox="0 0 32.665 32.658">
+                                    <path id="footer-social-icon-3"
+                                        d="M15.757,9.914a8.079,8.079,0,1,0,8.079,8.079A8.066,8.066,0,0,0,15.757,9.914Zm0,13.331a5.252,5.252,0,1,1,5.252-5.252,5.262,5.262,0,0,1-5.252,5.252ZM26.051,9.584A1.884,1.884,0,1,1,24.166,7.7,1.88,1.88,0,0,1,26.051,9.584ZM31.4,11.5a9.325,9.325,0,0,0-2.545-6.6,9.387,9.387,0,0,0-6.6-2.545c-2.6-.148-10.4-.148-13,0a9.373,9.373,0,0,0-6.6,2.538,9.356,9.356,0,0,0-2.545,6.6c-.148,2.6-.148,10.4,0,13a9.325,9.325,0,0,0,2.545,6.6,9.4,9.4,0,0,0,6.6,2.545c2.6.148,10.4.148,13,0a9.325,9.325,0,0,0,6.6-2.545,9.387,9.387,0,0,0,2.545-6.6c.148-2.6.148-10.392,0-12.994ZM28.041,27.281a5.318,5.318,0,0,1-3,3c-2.074.823-7,.633-9.288.633s-7.221.183-9.288-.633a5.318,5.318,0,0,1-3-3c-.823-2.074-.633-7-.633-9.288s-.183-7.221.633-9.288a5.318,5.318,0,0,1,3-3c2.074-.823,7-.633,9.288-.633s7.221-.183,9.288.633a5.318,5.318,0,0,1,3,3c.823,2.074.633,7,.633,9.288S28.863,25.214,28.041,27.281Z"
+                                        transform="translate(0.579 -1.664)" fill="currentColor" stroke="currentColor"
+                                        stroke-width="1" />
+                                </svg>
+                            </a>
+                        </li>
+                        <!--                    <li><a href="#"><img src="images/footer-social-icon-1.png" alt=""></a></li>-->
+                        <!--                    <li><a href="#"><img src="images/footer-social-icon-2.png" alt=""></a></li>-->
+                        <!--                    <li><a href="#"><img src="images/footer-social-icon-3.png" alt=""></a></li>-->
+                    </ul>
+                    <div class="footer_buttons">
+                        <img src="images/follow_img_arrow.svg" class="footer_follow_arrow" alt="" />
+                        <button data-target=".main_para_text_bottom" class="main_btn footer_button_main">
+                            <span>
+                                DESIGN
+                                <img src="images/Design-btn-arrow.svg" alt="" />
+                            </span>
+                        </button>
+                        <button data-target=".footer_menu_link" class="main_btn footer_button_main">
+                            <span>
+                                MENU
+                                <img src="images/footer_follow_arrow.svg" alt="" />
+                                <img src="images/menu-img-arrow.svg" alt="" />
+                            </span>
+                        </button>
+                    </div>
+                    <p class="main_para footer_tabs_content main_para_text_bottom">Design by Somzie | <a href="#"><span class="a6x-link" style="color:white">A6X Conglomerate</span></a></p>
+                    <ul class="footer_menu_link footer_tabs_content">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="#">LEARN...</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="services.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+  
+    <!-- calendly script -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".navbar-toggler").click(function (e) {
+                e.preventDefault();
+                $(".navbar").toggleClass("active");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
+
+<script>
+    $(document).ready(function () {
+        $('.navbar-nav .nav-link').removeClass('active');
+        $('.navbar-nav .nav-link[href*=services]').addClass('active');
+    })
+    $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+            stagePadding: 50,
+            loop: true,
+            margin: 100,
+            dots: false,
+            // autoplay: true,
+            autoWidth: true,
+            nav: true,
+            navText: ['<i class="fa-solid fa-chevron-left icon-m"></i>', '<i class="fa-solid fa-chevron-right"></i>'],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    })
+</script>

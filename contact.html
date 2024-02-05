@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Vyne | Station Pharmacy</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <script src=" assets/js/jquery.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="assets/css/Fonts/style.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    
+    
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/contact_booking.css" />
+    <!-- Calendly css -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.svg" alt="Logo" />
+            </a>
+            <div class="selectBox header_booking_form_btn ml-auto show_on_lg">
+                <div class="selectBox__value">
+                    <span class="selectBox__valueInner">Book</span>
+                    <img src="images/select-dropDown_arrow.svg" alt="" />
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="37" height="28" viewBox="0 0 37 28">
+                    <g id="Group_263" data-name="Group 263" transform="translate(-342 -35)">
+                        <path id="Rectangle_68" data-name="Rectangle 68"
+                            d="M6,0H34a3,3,0,0,1,3,3V3a3,3,0,0,1-3,3H0A0,0,0,0,1,0,6V6A6,6,0,0,1,6,0Z"
+                            transform="translate(342 46)" fill="#fff" />
+                        <path id="Rectangle_69" data-name="Rectangle 69"
+                            d="M3,0H25a3,3,0,0,1,3,3V3a3,3,0,0,1-3,3H0A0,0,0,0,1,0,6V3A3,3,0,0,1,3,0Z"
+                            transform="translate(351 57)" fill="#f5c600" />
+                        <path id="Rectangle_70" data-name="Rectangle 70"
+                            d="M3,0H18a3,3,0,0,1,3,3V3a3,3,0,0,1-3,3H0A0,0,0,0,1,0,6V3A3,3,0,0,1,3,0Z"
+                            transform="translate(348 35)" fill="#1f4" />
+                    </g>
+                </svg>
+                <img src="images/close_menu_btn_mobile.svg" alt="Logo" />
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav align-items-lg-center ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html"><span>HOME</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><span>ABOUT</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            SERVICES
+                        </a>
+                        <div class="dropdown-menu bg-transparent border-0" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item bg-transparent text-white px-0" href="services.html">ALL
+                                SERVICES</a>
+                            <div class="dropdown-divider d-lg-block d-none"></div>
+                            <a class="dropdown-item bg-transparent text-white px-0" href="therapy.html">THERAPY</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><span>CONTACT</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span>LEARN SOMETHING</span></a>
+                    </li>
+                    <div class="selectBox header_booking_form_btn hide_on_lg">
+                        <div class="selectBox__value">    
+                            <span class="selectBox__valueInner">Book</span>
+                            <img src="images/select-dropDown_arrow.svg" alt="" />
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="position-relative">
+            <section class="hero_section_contact">
+                <div class="container">
+                    <div class="section_height row align-items-center ">
+                        <div class="col-12 contact-div-p">
+                            <h5 class="section_contact_h align-text-center">CONTACT US</h5>
+                        <div class="d-flex align-items-center mt-2">
+                            <div class="form-container">
+                                <form class="flex-column align-items-center contact100-form align-items-center validate-form" action="enviar.php" method="post">
+                                    
+                    
+                                    <label class="label-input100" for="full_name">Full Name</label>
+                                    <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type your full name">
+                                        <input id="full_name" class="input100" type="text" name="full_name" placeholder="Enter your Full Name">
+                                        <span class="focus-input100"></span>
+                                    </div>
+                    
+                                    <label class="label-input100" for="email">Email</label>
+                                    <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                                        <input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com">
+                                        <span class="focus-input100"></span>
+                                    </div>
+                    
+                                    <label class="label-input100" for="phone">Phone number</label>
+                                    <div class="wrap-input100">
+                                        <input id="phone" class="input100" type="text" name="phone" placeholder="Eg. +1 800 000000">
+                                        <span class="focus-input100"></span>
+                                    </div>
+                    
+                                    <label class="label-input100" for="message">Message</label>
+                                    <div class="wrap-input100 validate-input" data-validate = "Message is required">
+                                        <textarea id="message" class="input100" name="message" placeholder="Write us a message"></textarea>
+                                        <span class="focus-input100"></span>
+                                    </div>
+                    
+                                    <div class="container-contact100-form-btn">
+                                        <button class="contact100-form-btn">
+                                            <img src="img/send.png" alt="sendbtn">
+                                        </button>
+                                    </div>
+                                </form>
+                        </div>
+
+                            <!-- <form class="contact_form" id="contact_frm">
+                                <div class="d-flex">
+                                    <div class="pl-0 py-2 pr-2 w-20"><label for="fullName"
+                                            class="col-form-label l-input">Full
+                                            Name</label></div>
+                                    <div class="p-2 w-100">
+                                        <input required onkeydown="return /^[a-zA-Z\s]*$/i.test(event.key)" type="text"
+                                            class="form-control s-input pl-1" name="name" id="fullName"
+                                            placeholder="Enter your full name" />
+                                    </div>
+                                </div>
+
+                                <div class="d-flex">
+                                    <div class="pl-0 py-2 pr-2 w-20"><label for="Phone"
+                                            class="col-form-label l-input">Phone</label>
+                                    </div>
+                                    <div class="p-2 w-100">
+                                        <input required type="number" name="phone_number"
+                                            class="form-control s-input pl-1" id="Phone"
+                                            placeholder="Enter your phone number" />
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="pl-0 py-2 pr-2 w-20"><label for="Email"
+                                            class="col-form-label l-input">Email</label>
+                                    </div>
+                                    <div class="p-2 w-100">
+                                        <input required type="text" name="email" class="form-control s-input pl-1"
+                                            id="Email" placeholder="Enter your email" />
+                                    </div>
+                                </div>
+                                <input type="hidden" name="form" value="form3">
+                                <div class="d-flex">
+                                    <div class="pl-0 py-2 pr-2 w-20"><label for="Message"
+                                            class="col-form-label l-input">Message</label>
+                                    </div>
+                                    <div class="p-2 w-100">
+                                        <textarea required name="message" class="form-control p-2 s-area mt-3"
+                                            id="Message" placeholder="Enter your message" rows="3"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="mt-lg-4 d-flex justify-content-end mt-5">
+                                    <img src="img/buttons/send_buttons/send_btn_green.svg">
+                                </div>
+                            </form> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- cut -->
+            <div class="contact_booking header_booking_form main_section">
+                <div class="header_booking_form_inner">
+                    <div class="d-flex align-items-center" id="booking_f" style="display: block;">
+                        <ul>
+                            <li id="book_p">
+                                <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/thevyne_pharmacy/book-prescriptions'});return false;">Prescriptions</a>
+                            </li>
+                            <li id="book_nhs">
+                                <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/thevyne_pharmacy/30min'});return false;">NHS Covid Jabs</a>
+                            </li>
+                            <li id="book_pc">
+                                <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/thevyne_pharmacy/book-private-consultation'});return false;">Private Consultation</a>
+                            </li>
+                            <li id="book_pc" target="_blank">
+                                <a href="https://pharmadoctor.co.uk/patient/locations/east-of-england/ipswich/Station-Pharmacy-IP309HD-2832">Other Bookings</a>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- cut -->
+
+
+        </div>
+    </main>
+    <footer class="main_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 hide_on_lg text-center mb-5">
+                    <img src="img/logo.svg" alt="" />
+                </div>
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-12 show_on_lg text-center mb-sm-4 mb-1">
+                            <img src="img/logo.svg" alt="" class="logo_styleout" />
+                        </div>
+                        <div class="col-lg-6 footer_item hide_on_lg">
+                            <h6><img src="images/footer_icon_1.png" alt="" />Opening Times</h6>
+                            <p class="main_para">Monday - Friday (9:00 - 18:00) Saturday (9:00 - 13:00)</p>
+                        </div>
+                        <div class="col-lg-6 footer_item">
+                            <h6><img src="images/footer_icon_2.png" alt="" />Lets Talk</h6>
+                            <a href="tel:01359242868" class="main_para hide_on_lg">01359 242868</a>
+                        </div>
+                        <div class="col-lg-6 footer_item_bottom footer_item">
+                            <h6><img src="images/footer_icon_3.png" alt="" />Address</h6>
+                            <p class="main_para">Unit 1 Cattlepens, Station Road, Elmswell, Bury St Edmunds , Suffolk,
+                                IP30
+                                9HD. UK</p>
+                        </div>
+                        <div class="col-lg-6 footer_item show_on_lg">
+                            <a href="tel:01359242868" class="main_para">01359 242868</a>
+                        </div>
+                        <div class="col-lg-6 footer_item_bottom footer_item">
+                            <h6><img src="images/footer_icon_4.png" alt="" />General Support</h6>
+                            <a href="mailto:info@thevynepharmacy.com" class="main_para">info@thevynepharmacy.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 pl-lg-4 pt-lg-3 footer_follow_wrapper">
+                    <h6>FOLLOW US</h6>
+                    <ul class="footer_follow_icon">
+                        <li>
+                            <a target="_blank" href="https://www.facebook.com/StationPharmacyElmswell">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19.5" height="33" viewBox="0 0 19.5 33">
+                                    <path id="footer-social-icon-1"
+                                        d="M27,3H22.5A7.5,7.5,0,0,0,15,10.5V15H10.5v6H15V33h6V21h4.5L27,15H21V10.5A1.5,1.5,0,0,1,22.5,9H27Z"
+                                        transform="translate(-9 -1.5)" fill="currentColor" stroke="currentColor"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="30.212"
+                                    viewBox="0 0 36 30.212">
+                                    <path id="footer-social-icon-2"
+                                        d="M34.5,4.5a16.35,16.35,0,0,1-4.71,2.3A6.72,6.72,0,0,0,18,11.295v1.5A15.99,15.99,0,0,1,4.5,6s-6,13.5,7.5,19.5a17.46,17.46,0,0,1-10.5,3c13.5,7.5,30,0,30-17.25A6.75,6.75,0,0,0,31.38,10,11.58,11.58,0,0,0,34.5,4.5Z"
+                                        transform="translate(0 -2.868)" fill="currentColor" stroke="currentColor"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://instagram.com/stationpharmacy7?igshid=YmMyMTA2M2Y=">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32.665" height="32.658"
+                                    viewBox="0 0 32.665 32.658">
+                                    <path id="footer-social-icon-3"
+                                        d="M15.757,9.914a8.079,8.079,0,1,0,8.079,8.079A8.066,8.066,0,0,0,15.757,9.914Zm0,13.331a5.252,5.252,0,1,1,5.252-5.252,5.262,5.262,0,0,1-5.252,5.252ZM26.051,9.584A1.884,1.884,0,1,1,24.166,7.7,1.88,1.88,0,0,1,26.051,9.584ZM31.4,11.5a9.325,9.325,0,0,0-2.545-6.6,9.387,9.387,0,0,0-6.6-2.545c-2.6-.148-10.4-.148-13,0a9.373,9.373,0,0,0-6.6,2.538,9.356,9.356,0,0,0-2.545,6.6c-.148,2.6-.148,10.4,0,13a9.325,9.325,0,0,0,2.545,6.6,9.4,9.4,0,0,0,6.6,2.545c2.6.148,10.4.148,13,0a9.325,9.325,0,0,0,6.6-2.545,9.387,9.387,0,0,0,2.545-6.6c.148-2.6.148-10.392,0-12.994ZM28.041,27.281a5.318,5.318,0,0,1-3,3c-2.074.823-7,.633-9.288.633s-7.221.183-9.288-.633a5.318,5.318,0,0,1-3-3c-.823-2.074-.633-7-.633-9.288s-.183-7.221.633-9.288a5.318,5.318,0,0,1,3-3c2.074-.823,7-.633,9.288-.633s7.221-.183,9.288.633a5.318,5.318,0,0,1,3,3c.823,2.074.633,7,.633,9.288S28.863,25.214,28.041,27.281Z"
+                                        transform="translate(0.579 -1.664)" fill="currentColor" stroke="currentColor"
+                                        stroke-width="1" />
+                                </svg>
+                            </a>
+                        </li>
+                        <!--                    <li><a href="#"><img src="images/footer-social-icon-1.png" alt=""></a></li>-->
+                        <!--                    <li><a href="#"><img src="images/footer-social-icon-2.png" alt=""></a></li>-->
+                        <!--                    <li><a href="#"><img src="images/footer-social-icon-3.png" alt=""></a></li>-->
+                    </ul>
+                    <div class="footer_buttons">
+                        <img src="images/follow_img_arrow.svg" class="footer_follow_arrow" alt="" />
+                        <button data-target=".main_para_text_bottom" class="main_btn footer_button_main">
+                            <span>
+                                DESIGN
+                                <img src="images/Design-btn-arrow.svg" alt="" />
+                            </span>
+                        </button>
+                        <button data-target=".footer_menu_link" class="main_btn footer_button_main">
+                            <span>
+                                MENU
+                                <img src="images/footer_follow_arrow.svg" alt="" />
+                                <img src="images/menu-img-arrow.svg" alt="" />
+                            </span>
+                        </button>
+                    </div>
+                    <p class="main_para footer_tabs_content main_para_text_bottom">Design by Somzie | <a href="#"><span class="a6x-link" style="color:white">A6X Conglomerate</span></a></p>
+                    <ul class="footer_menu_link footer_tabs_content">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="#">LEARN...</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var form = document.getElementById("frmContact");
+        document.getElementById("myButtonId").addEventListener("click", function () {
+        form.submit();
+        });
+    </script>
+    <script src="js/main.js"></script>
+    <!-- Hotjar Tracking Code for https://www.thevynepharmacy.com -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:3307648,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+     <!-- calendly script -->
+     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+     <!-- services and booking script -->
+    <script src="services.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"
+		type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<!-- include JavaScript validation here -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".navbar-toggler").click(function (e) {
+                e.preventDefault();
+                $(".navbar").toggleClass("active");
+            });
+        });
+        $(document).ready(function () {
+            $('.navbar-nav .nav-link').removeClass('active');
+            $('.navbar-nav .nav-link[href*=contact]').addClass('active');
+        })
+        $(document).ready(function () { });
+    </script>
+
+
+    
+</body>
+
+</html>

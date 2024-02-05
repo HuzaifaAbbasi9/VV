@@ -1,0 +1,330 @@
+/* Therapy Page CSS */
+.hero_section_therapy {
+    background-color: var(--green);
+    background-image: url("../../images/therapy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 5rem;
+}
+
+.section_therapy_h {
+    font-size: 4.375rem;
+    font-family: var(--AkiraExpanded);
+    color: var(--lightYellow);
+}
+
+.section_therapy_h.service-heading {
+    margin-bottom: 4.5rem;
+}
+
+.card-therapy {
+    background: unset;
+    border: 0.188rem solid #ffea90;
+    border-radius: 0.625rem;
+    text-align: center;
+    min-height: 23.375rem;
+}
+
+@media (min-width: 992px) {
+    .card-therapy {
+        margin-bottom: 1rem;
+    }
+}
+
+.therapy-b {
+    border-bottom: 0.188rem solid #ffea90;
+}
+
+.card-hearder-h {
+    font-size: 0.938rem;
+    color: var(--white);
+    font-weight: bold;
+    font-family: var(--Montserrat);
+    text-transform: uppercase;
+}
+
+.therapy-p {
+    font-size: 0.938rem;
+    font-weight: bold;
+    font-family: var(--LouisGeorgy);
+    color: var(--white);
+}
+
+.therapy-card-outer {
+    position: relative;
+}
+
+.therapy-card-outer .card-text-show-more {
+    display: none;
+}
+
+.therapy-card-outer.active .card-text-show-more {
+    display: inline;
+}
+
+.therapy-card-outer .plus-div button img {
+    transition: transform linear .3s;
+}
+
+.therapy-card-outer.active .plus-div button img {
+    transform: rotate(45deg);
+}
+
+.therapy-card-outer.active .card-text-dots {
+    display: none;
+}
+
+.background-unset {
+    background: unset;
+}
+
+.mr-15 {
+    margin-right: 15rem;
+}
+
+.card-div-p {
+    padding: 0.875rem 3.25rem;
+}
+
+.card-p {
+    padding: 3.25rem 2.813rem;
+    position: relative;
+    max-width: 970px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plus-div {
+    position: absolute;
+    right: 0.938rem;
+    bottom: 0.938rem;
+}
+
+@media (max-width: 768px) {
+    .section_therapy_h {
+        font-size: 30px;
+    }
+
+    .card-div-p {
+        padding: 0;
+    }
+
+    .mr-15 {
+        margin-right: 0;
+    }
+
+    .mt-sm-8 {
+        margin-top: 8rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .mt-sm-8 {
+        margin-top: 8rem;
+    }
+
+    .mr-15 {
+        margin-right: 0;
+    }
+
+    /* .section_therapy_h {
+        font-size: 55px;
+    } */
+    .card-div-p {
+        padding: 45px 0px;
+    }
+
+    /* .card-therapy {
+        height: 510px;
+    } */
+}
+
+/* Therapy Page CSS */
+
+@media (max-width: 992px) {
+    .footer-logo  {
+        width: 7em;
+    }
+
+    .hero_section {
+        background: url(../../img/bg_992.jpg);
+        background-repeat: none;
+        background-position: center;
+        height: 100vh;
+        background-size: cover;
+        background-position-x: 25% ;
+        
+    }
+
+    p.sub-text {
+        
+        font-size: .9rem;
+        
+    }
+
+    header .selectBox  {
+        width: 8em;
+    }
+
+    .hero-btn {
+        float: left!important;
+    }
+
+    .sub-text {
+        padding-right: 5em;
+    }
+
+    .hero_section .hero_profile {
+        max-width: 55%;
+    }
+    .hero_section .main_para {
+        margin-bottom: 2.5rem;
+    }
+
+    .hero_button_outer .main_btn::after {
+        width: 85%;
+        transform: scale(1.1, 1.4) translateX(1.5rem);
+    }
+
+    .hero_button_outer .main_btn:hover:after {
+        width: 100%;
+    }
+
+    .private_consultation_section .main_btn,
+    .therapy_section .main_btn {
+        min-width: 9.375rem;
+    }
+
+    .private_consultation_section .main_btn::after,
+    .therapy_section .main_btn::after {
+        width: 3.438rem;
+    }
+
+    .private_consultation_section .main_btn span i,
+    .therapy_section .main_btn span i {
+        font-size: 0.875rem;
+    }
+
+
+    .reviews_section {
+        padding-bottom: 6.25rem;
+    }
+    .card-therapy {
+        margin-bottom: 1rem;
+    }
+
+    
+    .mt-sm-8 {
+        margin-top: 8rem;
+    }
+
+    .mr-15 {
+        margin-right: 0;
+    }
+
+    .section_therapy_h {
+        font-size: 55px;
+    } 
+
+    .card-div-p {
+        padding: 45px 0px;
+    }
+
+    /*.card-therapy {*/
+    /*    height: 510px;*/
+    /*}*/
+
+    .card-div-p {
+        padding: 45px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .para-border {
+        border-bottom: 1px solid #ffffff;
+        padding: 40px 0 40px 0;
+        border-top: 1px solid #ffffff;
+    }
+
+    .section_therapy_h {
+        font-size: 30px;
+    }
+
+  
+
+    .therapy_section .main_heading {
+        text-shadow: unset;
+        text-align: right;
+    }
+
+    .therapy_section .main_para {
+        max-width: 12.5rem;
+        margin-left: auto;
+    }
+
+    .therapy_section .section_height {
+        justify-content: flex-end;
+    }
+
+    
+    .card-therapy {
+        min-height: fit-content;
+    }
+
+    .card-p {
+        padding: 1.25rem 1.813rem;
+    }
+
+    .card-about-h {
+        padding: 0.6rem 1rem;
+    }
+
+    .card-text.about-p {
+        font-size: 13px;
+    }
+
+   
+
+    .section_therapy_h.service-heading {
+        margin-bottom: 2rem;
+        margin-top: 1.5em;
+    }
+
+    
+} 
+
+@media (max-width: 576px) {
+
+    .therapy_section,
+    .private_consultation_section {
+        background-position: center;
+    }  
+}
+
+@media (max-width: 360px) {
+
+
+    .therapy_section .main_para {
+        font-size: 11px;
+    }
+
+    .private_consultation_section .main_btn,
+    .therapy_section .main_btn {
+        min-width: 8.375rem;
+        font-size: 10px;
+    }
+
+    .therapy_section .main_btn img,
+    .private_consultation_section .main_btn img {
+        width: 0.425rem;
+    }
+
+} 
+
+
+
+

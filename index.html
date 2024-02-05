@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>The Vyne | Station Pharmacy</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css"/>
+    <script src=" assets/js/jquery.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="assets/css/Fonts/style.css"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/common.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <!-- Calendly css -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <!-- Hotjar Tracking Code for https://www.thevynepharmacy.com -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {hjid: 3307648, hjsv: 6};
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VC64PR1MD5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-VC64PR1MD5');
+    </script>
+</head>
+
+<body>
+
+<header class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo.svg" alt="Logo"/>
+        </a>
+        <div class="selectBox header_booking_form_btn ml-auto show_on_lg">
+            <div class="selectBox__value">
+                <span class="selectBox__valueInner">Book</span>
+                <img src="images/select-dropDown_arrow.svg" alt=""/>
+            </div>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="37" height="28" viewBox="0 0 37 28">
+                <g id="Group_263" data-name="Group 263" transform="translate(-342 -35)">
+                    <path id="Rectangle_68" data-name="Rectangle 68"
+                          d="M6,0H34a3,3,0,0,1,3,3V3a3,3,0,0,1-3,3H0A0,0,0,0,1,0,6V6A6,6,0,0,1,6,0Z"
+                          transform="translate(342 46)" fill="#fff"/>
+                    <path id="Rectangle_69" data-name="Rectangle 69"
+                          d="M3,0H25a3,3,0,0,1,3,3V3a3,3,0,0,1-3,3H0A0,0,0,0,1,0,6V3A3,3,0,0,1,3,0Z"
+                          transform="translate(351 57)" fill="#f5c600"/>
+                    <path id="Rectangle_70" data-name="Rectangle 70"
+                          d="M3,0H18a3,3,0,0,1,3,3V3a3,3,0,0,1-3,3H0A0,0,0,0,1,0,6V3A3,3,0,0,1,3,0Z"
+                          transform="translate(348 35)" fill="#1f4"/>
+                </g>
+            </svg>
+            <img src="images/close_menu_btn_mobile.svg" alt="Logo"/>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav align-items-lg-center ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html"><span>HOME</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"><span>ABOUT</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        SERVICES
+                    </a>
+                    <div class="dropdown-menu bg-transparent border-0" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item bg-transparent text-white px-0" href="services.html">ALL
+                            SERVICES</a>
+                        <div class="dropdown-divider d-lg-block d-none"></div>
+                        <a class="dropdown-item bg-transparent text-white px-0" href="therapy.html">THERAPY</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><span>CONTACT</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span>LEARN SOMETHING</span></a>
+                </li>
+                <div class="selectBox header_booking_form_btn hide_on_lg">
+                    <div class="selectBox__value">
+                        <span class="selectBox__valueInner">Book</span>
+                        <img src="images/select-dropDown_arrow.svg" alt=""/>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="position-relative">
+        <section class="hero_section">
+            <div class="container">
+                <div class="section_height row align-items-center">
+                    <div id="carouselExampleIndicators col-lg-6 col-sm-6 col-md-6" class="carousel slide"
+                         data-ride="carousel">
+                        <!-- <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol> -->
+                        <div class="carousel-inner" id="carousel">
+                            <div class="carousel-item active">
+                                <h1 class="caro">Flu</h1>
+                                <span class="vac">Vaccination</span>
+                                <p class="sub-text">Protect yourself and your loved ones <br>this season
+                                    against flu and more..
+                                </p>
+                                <a href="services.html"><img src="img/hero_btn.svg" class="hero-btn"></a>
+                            </div>
+                            <div class="carousel-item">
+                                <h1 class="caro">NHS</h1>
+                                <span class="vac">Prescriptions</span>
+                                <p class="sub-text">Book your private prescriptions with us</p>
+                                <a href="services.html"><img src="img/hero_btn.svg" class="hero-btn"></a>
+                            </div>
+                            <div class="carousel-item">
+                                <h1 class="caro">Private </h1>
+                                <span class="vac">Consultation</span>
+                                <p class="sub-text">Consult our lead pharmacist today</p>
+                                <a href="services.html"><img src="img/hero_btn.svg" class="hero-btn"></a>
+                            </div>
+                        </div>
+                        <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a> -->
+                    </div>
+                    <!-- <div class="col-lg-5 col-5 col-sm-6 show_on_lg">
+                        <div class="hero_section_text">
+                            <h1 class="main_heading">flu</h1>
+                            <h2 class="sub_heading mb-lg-5 mb-4">VAccination</h2>
+                            <p class="main_para">For your free NHS jab, visit our pharmacy for more details. If
+                                you’re
+                                not eligible, we offer a private Winter Flu Jab Service with a small charge..</p>
+                            <div class="mt-lg-5 hero_button_outer">
+                                <a href="services.html" class="main_btn"><span>MORE...</span></a>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <img src="images/hero-profile.png" class="d-flex   justify-content-end hero_profile hide_on_md" alt=""/>
+            <img src="img/doc.png" class="d-flex justify-content-end hero_profile  show_on_md " alt=""/>
+        </section>
+        <!-- booking-form -->
+        <div class="header_booking_form main_section">
+            <div class="header_booking_form_inner">
+                <div class="d-flex align-items-center" id="booking_f">
+                    <ul>
+                        <li id="book_p">
+                            <a href=""
+                               onclick="Calendly.initPopupWidget({url: 'https://calendly.com/thevyne_pharmacy/book-prescriptions'});return false;">Prescriptions</a>
+                        </li>
+                        <li id="book_nhs">
+                            <a href=""
+                               onclick="Calendly.initPopupWidget({url: 'https://calendly.com/thevyne_pharmacy/30min'});return false;">NHS
+                                Covid Jabs</a>
+                        </li>
+                        <li id="book_pc">
+                            <a href=""
+                               onclick="Calendly.initPopupWidget({url: 'https://calendly.com/thevyne_pharmacy/book-private-consultation'});return false;">Private
+                                Consultation</a>
+                        </li>
+                        <li id="book_pc" target="_blank">
+                            <a href="https://pharmadoctor.co.uk/patient/locations/east-of-england/ipswich/Station-Pharmacy-IP309HD-2832">Other
+                                Bookings</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <section class="therapy_section">
+                <div class="container">
+                    <div class="row section_height align-items-center">
+                        <div class="col-lg-6 col-md-7 col-8 offset-lg-6 therapy_col_custom_padding">
+                            <h2 class="main_heading">therapy</h2>
+                            <p class="main_para text-md-center text-right">
+                                We work at your pace, monitoring and ensuring your progress with our customised
+                                treatments .
+                                We work with sensitivity and understanding to keep you relaxed and comfortable as we
+                                improve
+                                your well-being
+                                together
+                            </p>
+                            <div class="mt-lg-4 d-flex justify-content-end">
+                                <a href="therapy.html" class="main_btn">
+                                    <span>MORE <img src="images/Btn-arrow-right.svg" alt=""/></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div>
+            <section class="private_consultation_section">
+                <div class="container">
+                    <div class="row section_height">
+                        <div class="col-lg-8 col-10 mt-auto">
+                            <h2 class="main_heading">Private consultation</h2>
+                            <p class="main_para">
+                                Our lead pharmacist is on hand to provide you with expert advice within the life science
+                                sector to ensure that all of your compliance challenges are dealt with in an effective
+                                and
+                                proactive manner.
+                            </p>
+                            <div class="d-flex justify-content-start">
+                                <a href="consultation.html" class="main_btn">
+                                    <span>
+                                        MORE
+                                        <img src="images/Btn-arrow-right.svg" alt=""/>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div>
+            <section class="testimonials_sec section_height main_section">
+                <div class="container">
+                    <h2 class="main_heading text-center"><span>testimonials</span></h2>
+                    <div class="row testimonials_rows">
+                        <div class="testimonials_col pr-lg-0 col-md-4">
+                            <div class="testimonials_item">
+                                <div class="testimonials_item_inner">
+                                    <img src="images/testimonial_1.svg" alt=""/>
+                                    <h6 class="mb-0">Mark Pitsburg</h6>
+                                    <p class="main_para">
+                                        One of the best things to ever happen to Elmswell. The community appreciates
+                                        your
+                                        hardwork and commitment to the health of our senior citizens. We hope you liked
+                                        your
+                                        award. You guys truly deserve
+                                        it. Best pharmacy in Elswell.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonials_col col-md-4">
+                            <div class="testimonials_item">
+                                <div class="testimonials_item_inner">
+                                    <img src="images/testimonial_2.svg" alt=""/>
+                                    <h6 class="mb-0">Jane Eyre</h6>
+                                    <p class="main_para">
+                                        The ladies are amazing and so is the head pharmacist. I can’t tell you how many
+                                        times he has delivered my medication to my doorstep out of free will without
+                                        charging me extra. Goes to show that
+                                        these people are humane. Thanks for all the care
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonials_col col-md-4">
+                            <div class="testimonials_item">
+                                <div class="testimonials_item_inner">
+                                    <img src="images/testimonial_3.svg" alt=""/>
+                                    <h6 class="mb-0">Johnny Vargas</h6>
+                                    <p class="main_para">
+                                        Outstanding customer service, absolutely 5 stars! Sometimes I visit them more
+                                        than
+                                        my GP and I find that weird but I can’t help it. The attention to detail they
+                                        take
+                                        in making sure you take the
+                                        right medication is impressive.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div>
+            <section class="reviews_section">
+                <div class="container">
+                    <div class="col-12">
+                        <div class="reviews_content">
+                            <h6>RATE OUR SERVICES OR TELL US HOW TO SERVE YOU BETTER BY GIVING US A REVIEW!</h6>
+                            <div class="reviews_content_images">
+                                <a href="#"><img src="images/trustpilot-img.svg" alt=""/></a>
+                                <a target="_blank"
+                                   href="https://www.google.com/maps/place/The+Vyne+Ltd/@52.2379817,0.9116057,17z/data=!3m1!4b1!4m6!3m5!1s0x47d9b104fdb83ac9:0xe9d1cdb3d5c34870!8m2!3d52.2379817!4d0.9137944!16s%2Fg%2F1tfcmm3m"><img
+                                        src="images/goggle-img.svg" alt=""/></a>
+                            </div>
+                            <!--                    <img src="images/reviews-imges.png" class="hide_on_md" alt="">-->
+                            <!--                    <img src="images/reviews-imge-mob-1.png" class="show_on_md" alt="">-->
+                            <!--                    <img src="images/reviews-imge-mob-2.png" class="show_on_md" alt="">-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+</main>
+<!-- footer -->
+<footer class="main_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 hide_on_lg text-center mb-5">
+                <img src="img/logo.svg" class="footer-logo">
+            </div>
+            <div class="col-lg-7">
+                <div class="row">
+                    <div class="col-12 show_on_lg text-center mb-sm-4 mb-1">
+                        <img src="img/logo.svg" alt="" class="logo_styleout"/>
+                    </div>
+                    <div class="col-lg-6 footer_item hide_on_lg">
+                        <h6><img src="images/footer_icon_1.png" alt=""/>Opening Times</h6>
+                        <p class="main_para">Monday - Friday (9:00 - 18:00) Saturday (9:00 - 13:00)</p>
+                    </div>
+                    <div class="col-lg-6 footer_item">
+                        <h6><img src="images/footer_icon_2.png" alt=""/>Lets Talk</h6>
+                        <a href="tel:01359242868" class="main_para hide_on_lg">01359 242868</a>
+                    </div>
+                    <div class="col-lg-6 footer_item_bottom footer_item">
+                        <h6><img src="images/footer_icon_3.png" alt=""/>Address</h6>
+                        <p class="main_para">Unit 1 Cattlepens, Station Road, Elmswell, Bury St Edmunds , Suffolk,
+                            IP30
+                            9HD. UK</p>
+                    </div>
+                    <div class="col-lg-6 footer_item show_on_lg">
+                        <a href="tel:01359242868" class="main_para">01359 242868</a>
+                    </div>
+                    <div class="col-lg-6 footer_item_bottom footer_item">
+                        <h6><img src="images/footer_icon_4.png" alt=""/>General Support</h6>
+                        <a href="mailto:info@thevynepharmacy.com" class="main_para">info@thevynepharmacy.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 pl-lg-4 pt-lg-3 footer_follow_wrapper">
+                <h6>FOLLOW US</h6>
+                <ul class="footer_follow_icon">
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/StationPharmacyElmswell">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19.5" height="33" viewBox="0 0 19.5 33">
+                                <path id="footer-social-icon-1"
+                                      d="M27,3H22.5A7.5,7.5,0,0,0,15,10.5V15H10.5v6H15V33h6V21h4.5L27,15H21V10.5A1.5,1.5,0,0,1,22.5,9H27Z"
+                                      transform="translate(-9 -1.5)" fill="currentColor" stroke="currentColor"
+                                      stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="30.212"
+                                 viewBox="0 0 36 30.212">
+                                <path id="footer-social-icon-2"
+                                      d="M34.5,4.5a16.35,16.35,0,0,1-4.71,2.3A6.72,6.72,0,0,0,18,11.295v1.5A15.99,15.99,0,0,1,4.5,6s-6,13.5,7.5,19.5a17.46,17.46,0,0,1-10.5,3c13.5,7.5,30,0,30-17.25A6.75,6.75,0,0,0,31.38,10,11.58,11.58,0,0,0,34.5,4.5Z"
+                                      transform="translate(0 -2.868)" fill="currentColor" stroke="currentColor"
+                                      stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://instagram.com/stationpharmacy7?igshid=YmMyMTA2M2Y=">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32.665" height="32.658"
+                                 viewBox="0 0 32.665 32.658">
+                                <path id="footer-social-icon-3"
+                                      d="M15.757,9.914a8.079,8.079,0,1,0,8.079,8.079A8.066,8.066,0,0,0,15.757,9.914Zm0,13.331a5.252,5.252,0,1,1,5.252-5.252,5.262,5.262,0,0,1-5.252,5.252ZM26.051,9.584A1.884,1.884,0,1,1,24.166,7.7,1.88,1.88,0,0,1,26.051,9.584ZM31.4,11.5a9.325,9.325,0,0,0-2.545-6.6,9.387,9.387,0,0,0-6.6-2.545c-2.6-.148-10.4-.148-13,0a9.373,9.373,0,0,0-6.6,2.538,9.356,9.356,0,0,0-2.545,6.6c-.148,2.6-.148,10.4,0,13a9.325,9.325,0,0,0,2.545,6.6,9.4,9.4,0,0,0,6.6,2.545c2.6.148,10.4.148,13,0a9.325,9.325,0,0,0,6.6-2.545,9.387,9.387,0,0,0,2.545-6.6c.148-2.6.148-10.392,0-12.994ZM28.041,27.281a5.318,5.318,0,0,1-3,3c-2.074.823-7,.633-9.288.633s-7.221.183-9.288-.633a5.318,5.318,0,0,1-3-3c-.823-2.074-.633-7-.633-9.288s-.183-7.221.633-9.288a5.318,5.318,0,0,1,3-3c2.074-.823,7-.633,9.288-.633s7.221-.183,9.288.633a5.318,5.318,0,0,1,3,3c.823,2.074.633,7,.633,9.288S28.863,25.214,28.041,27.281Z"
+                                      transform="translate(0.579 -1.664)" fill="currentColor" stroke="currentColor"
+                                      stroke-width="1"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <!--                    <li><a href="#"><img src="images/footer-social-icon-1.png" alt=""></a></li>-->
+                    <!--                    <li><a href="#"><img src="images/footer-social-icon-2.png" alt=""></a></li>-->
+                    <!--                    <li><a href="#"><img src="images/footer-social-icon-3.png" alt=""></a></li>-->
+                </ul>
+                <div class="footer_buttons">
+                    <img src="images/follow_img_arrow.svg" class="footer_follow_arrow" alt=""/>
+                    <button data-target=".main_para_text_bottom" class="main_btn footer_button_main">
+                            <span>
+                                DESIGN
+                                <img src="images/Design-btn-arrow.svg" alt=""/>
+                            </span>
+                    </button>
+                    <button data-target=".footer_menu_link" class="main_btn footer_button_main">
+                            <span>
+                                MENU
+                                <img src="images/footer_follow_arrow.svg" alt=""/>
+                                <img src="images/menu-img-arrow.svg" alt=""/>
+                            </span>
+                    </button>
+                </div>
+                <p class="main_para footer_tabs_content main_para_text_bottom">Design by Somzie | <a href="#"><span
+                        class="a6x-link" style="color:white">A6X Conglomerate</span></a></p>
+                <ul class="footer_menu_link footer_tabs_content">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="#">LEARN...</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- calendly script -->
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.navbar-nav .nav-link').removeClass('active');
+        $('.navbar-nav .nav-link[href*=index]').addClass('active');
+    })
+    // $(".hero_section_slider").owlCarousel({
+    //     items: 1,
+    //     margin: 2,
+    //     nav: true,
+    //     dots: false,
+    //     navText: ['<i class="fa-solid fa-chevron-left"></i>', '<i class="fa-solid fa-chevron-right"></i>'],
+    // });
+    $(document).ready(function () {
+        $(".navbar-toggler").click(function (e) {
+            e.preventDefault();
+            $(".navbar").toggleClass("active");
+        });
+    });
+</script>
+</body>
+
+</html>

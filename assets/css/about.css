@@ -1,0 +1,8 @@
+.about  {
+    background-image: url(../../images/About.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:auto;
+}

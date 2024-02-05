@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170.506" height="46" viewBox="0 0 170.506 46">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="1.357" gradientTransform="translate(0.365) scale(0.27 1)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#34bf3f"/>
+      <stop offset="1" stop-color="#007a22"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_82" data-name="Group 82" transform="translate(-427.564 -3901)">
+    <g id="Group_17" data-name="Group 17">
+      <path id="Path_12" data-name="Path 12" d="M573.021,3901H427.564l24.136,46H598.07Z" fill="url(#radial-gradient)"/>
+    </g>
+    <text id="DESIGN" transform="translate(474.572 3928.145)" fill="#fff" font-size="15" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="0.2em"><tspan x="0" y="0">DESIGN</tspan></text>
+  </g>
+</svg>
